@@ -11,8 +11,8 @@
     <groupId>com.estudo</groupId>
     <artifactId>spring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
-    <name>taco-cloud</name>
+    <packaging>war</packaging>
+    <name>Capitulo-3</name>
     <description>Livro Spring in action</description>
     <properties>
         <java.version>17</java.version>

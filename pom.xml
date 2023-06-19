@@ -3,7 +3,7 @@
       
     <modelVersion>4.0.0</modelVersion>      
     <groupId>com.mycompany</groupId>      
-    <artifactId>SpringInAction</artifactId>      
+    <artifactId>SpringInActionBook</artifactId>      
     <version>1.0-SNAPSHOT</version>      
     <packaging>pom</packaging>
       
@@ -19,7 +19,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>  
     <modules>      
-        <module>Taco-Cloud</module>       
+        <module>Capitulo-2</module>
+        <module>Capitulo-3</module>
     </modules> 
     <dependencies>
         <dependency>
@@ -71,6 +72,6 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>    
-    
+    </build>
+    <name>SpringInActionBook</name>
 </project>
