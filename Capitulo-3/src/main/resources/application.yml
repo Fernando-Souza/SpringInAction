@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    name: tacocloud
+    generate-unique-name: false
+

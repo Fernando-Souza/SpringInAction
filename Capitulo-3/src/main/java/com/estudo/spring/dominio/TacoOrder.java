@@ -4,13 +4,20 @@ package com.estudo.spring.dominio;
 import jakarta.validation.constraints.Digits;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import lombok.Data;
 import org.hibernate.validator.constraints.CreditCardNumber;
 
 @Data
-public class TacoOrder {
+public class TacoOrder implements Serializable{
+    
+    private static final long serialVersionUID = 1L;
+    
+    private long id;
+    private Date createdAt;
     
     @NotBlank(message="Delivery name is required")
     private String deliveryName;
