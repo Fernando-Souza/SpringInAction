@@ -14,5 +14,6 @@ That way multiple projects can share the same settings (useful for formatting ru
 Any value defined here will override the pom.xml file value but is only applicable to the current project.
 -->
         <org-netbeans-spi-editor-hints-projects.perProjectHintSettingsEnabled>true</org-netbeans-spi-editor-hints-projects.perProjectHintSettingsEnabled>
+        <netbeans.hint.jdkPlatform>Zulu_17.0.7_7</netbeans.hint.jdkPlatform>
     </properties>
 </project-shared-configuration>

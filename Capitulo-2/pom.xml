@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>  
 
     <groupId>com.springInAction</groupId>
-    <artifactId>Taco-Cloud</artifactId>
+    <artifactId>Taco-Cloud-1</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>Capitulo-2</name>
     <parent>
-        <artifactId>SpringInAction</artifactId>
+        <artifactId>SpringInActionBook</artifactId>
         <groupId>com.mycompany</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>

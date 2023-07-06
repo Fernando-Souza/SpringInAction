@@ -4,7 +4,6 @@
  */
 package com.estudo.spring.data;
 
-import com.estudo.spring.dominio.Ingredient;
 import com.estudo.spring.dominio.Taco;
 import com.estudo.spring.dominio.TacoOrder;
 import java.sql.Types;
